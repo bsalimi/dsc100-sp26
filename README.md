@@ -36,7 +36,7 @@ Tuesdays and Thursdays at 12:30p-1:50p
 
 TBD
 
-**Piazza:** [link]https://piazza.com/ucsd/winter2026/dsc100) (Requires access code posted on Canvas)
+**Piazza:** [link](https://piazza.com/ucsd/winter2026/dsc100) (Requires access code posted on Canvas)
 
 **Have questions? Please email Babak Salimi (bsalimi@ucsd.edu) and at least one of the TAs for questions about logistics. All other questions should be discussed on Piazza.**
 
