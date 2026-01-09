@@ -34,7 +34,7 @@ Tuesdays and Thursdays at 12:30p-1:50p
 
 **Note:** Office hours will be held via Zoom (link can be found on the Canvas calendar - will be updated soon). 
 
-Shared Office Hour: Wednesday 3pm - 4pm weekly
+Prof. Babak Salimi: Wednesday 3pm - 4pm weekly
 
 **Piazza:** [link](https://piazza.com/ucsd/winter2026/dsc100) (Requires access code posted on Canvas)
 
