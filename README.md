@@ -19,8 +19,9 @@ Databases are at the heart of modern commercial application development. Their u
 **Course Assistants:**
 
 
-Jiongli Zhu [jiz143@ucsd.edu](jiz143@ucsd.edu)
-Haoquan Guan [h3guan@ucsd.edu](h3guan@ucsd.edu)
+Jiongli Zhu, jiz143@ucsd.edu
+
+Haoquan Guan, h3guan@ucsd.edu
 
 **Lectures**:
 
