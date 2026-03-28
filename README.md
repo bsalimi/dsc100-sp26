@@ -94,22 +94,6 @@ The grading scheme is a hybrid of absolute and relative grading. The absolute cu
 | D     | 50                   | Next 5% (90-95)               |
 | F     | < 50                 | Lowest 5%                     |
 
-
-
-| Grade | Absolute Cutoff (>=) | Relative Bin (Use strictest) |
-|-------|----------------------|-------------------------------|
-| A+    | 97                   | Highest 5%                    |
-| A     | 94                   | Next 10% (5-15)               |
-| A-    | 91                   | Next 15% (15-30)              |
-| B+    | 85                   | Next 15% (30-45)              |
-| B     | 80                   | Next 15% (45-60)              |
-| B-    | 70                   | Next 15% (60-75)              |
-| C+    | 65                   | Next 5% (75-80)               |
-| C     | 60                   | Next 5% (80-85)               |
-| C-    | 55                   | Next 5% (85-90)               |
-| D     | 50                   | Next 5% (90-95)               |
-| F     | < 50                 | Lowest 5%                     |
-
 **Exam Dates:**
 
 - Midterm Exam: TBD
