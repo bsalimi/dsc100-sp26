@@ -1,129 +1,82 @@
 ![The_Data_Lifecycle](fig/The_Data_Lifecycle.jpeg)
 
-# DSC 100: Introduction to Data Management
+# DSC 100: Introduction to Data Management — Spring 2026
 
+---
 
+> **Lectures:** TuTh 2:00–3:20p &ensp;|&ensp; **Room:** SOLIS 104 &ensp;|&ensp; **Discussion:** Mon 2:00–2:50p, SOLIS 104
+>
+> **Instructor:** [Babak Salimi](https://bsalimi.github.io/) (bsalimi@ucsd.edu) &ensp;|&ensp; **TAs:** TBD
+>
+> **Links:** [Canvas](https://canvas.ucsd.edu) &ensp;|&ensp; [Piazza](https://piazza.com/ucsd/spring2026/dsc100) (access code on Canvas) &ensp;|&ensp; **Final:** Tue Jun 9, 3:00–5:59p
 
-## Description:
+---
 
-Databases are at the heart of modern commercial application development. Their use extends beyond this to many other environments and domains where large amounts of data must be stored for efficient update, retrieval, and analysis. This course provides a comprehensive introduction to data management, covering topics such as the relational data model, SQL, formal query languages, query evaluation, data storage and indexes, NoSQL databases, conceptual design, integrity constraints, design theory, normal forms, and data quality. Through a combination of lectures, demos, and hands-on exercises, students will gain a strong foundation in database management concepts and practices, with a focus on the use of SQL and the relational model. The course begins with an overview of course organization and an introduction to the relational data model, followed by lessons on SQL basics and different types of joins in SQL. In the following weeks, students will learn advanced SQL queries, formal query languages, and query evaluation. The course also covers topics related to data storage and indexing, including hard disk and file organization, index organization, and creating indexes in SQL. In the latter half of the course, students will study NoSQL databases, conceptual design, integrity constraints, and design theory, culminating in a discussion of normal forms. The course includes a discussion of data quality, including techniques for dealing with missing data and entity deduplication. Upon completing the course, students will be equipped with the skills and knowledge necessary for designing, querying, and maintaining a relational database.
+## Table of Contents
 
+- [Course Description](#course-description)
+- [Schedule](#schedule)
+- [Instructional Team](#instructional-team)
+- [Grading](#grading)
+- [Course Workload](#course-workload)
+- [Policies](#policies)
+- [Resources](#resources)
 
+---
 
-**Demos:** The demo sessions for this course will be conducted on Zoom remotely, as it is more convenient. Depending on the progress, demo sessions on Zoom will be announced through the course on Canvas and Piazza.
+## Course Description
 
-## Instructional team:
+This course provides a comprehensive introduction to data management, covering the relational data model, SQL, formal query languages, query evaluation, data storage and indexes, NoSQL databases, conceptual design, integrity constraints, design theory, normal forms, and data quality. Through lectures, demos, and hands-on exercises, students will gain a strong foundation in database management with a focus on SQL and the relational model.
 
-**Instructor:**
+**Demos:** Demo sessions will be conducted on Zoom remotely for convenience. Demo sessions will be announced through Canvas and Piazza depending on progress.
 
-[Babak Salimi](https://bsalimi.github.io/), bsalimi@ucsd.edu
+---
 
-**Course Assistants:**
+## Schedule
 
+*(subject to change)*
 
-TBD
+| Week | Date | Topic | Assignments | Slides | Discussion |
+|------|------|-------|-------------|--------|------------|
+| 1 | Mar 31 | Course organization and Introduction |  | [Slide-Part 1](https://drive.google.com/file/d/10Ts2iRj7IBpWQkwxa07vRdT7czFcfmQs/view?usp=sharing) [Recording-Part 1](https://drive.google.com/file/d/1l85Hy_nIcxMXem62dKVWz2PxsfPg1IHV/view?usp=sharing) [Slide-Part 2](https://drive.google.com/file/d/104OGPAmhHFlfDM_1MJ9ChH5tDz7xtfEz/view?usp=sharing) [Recording-Part 2](https://drive.google.com/file/d/10CqTVmNFQNwtrdfFIg73DgLcvsDvt20j/view?usp=sharing) [Slide-Part 3](https://drive.google.com/file/d/10X1VrgLcrKPssW1w48ThejDb3ieedCnJ/view?usp=sharing) [Recording-Part 3](https://drive.google.com/file/d/10IpNPfkfWf33XZOAcuYSvbzUqGs6QaoV/view?usp=sharing) [Demo 1](https://drive.google.com/file/d/1-iCciQ_A6DI_gQR1KLFf196axsJpbM3n/view?usp=sharing) [Source](https://drive.google.com/file/d/1-jtOOESAnOPfDDShXydoQQayLQMxI7YN/view?usp=sharing) [Slide-Part 4](https://drive.google.com/file/d/10ZB4yHge97742CVLUa_yWgKxbLCGIch_/view?usp=sharing) [Recording-Part 4](https://drive.google.com/file/d/10DfiDpHk1jESO6f5r3VnTK20iegqLT2t/view?usp=sharing) |  |
+|  | Apr 2 | Relational Data Model | Web Quiz 1: Data Models and Basic SQL **Homework 1 - release:** SQLITE and SQL Basics |  |  |
+| 2 | Apr 7 | Joins in SQL Part 1 |  |  |  |
+|  | Apr 9 | Joins in SQL Part 2 |  |  | SQL practice |
+|  | Apr 10 |  | **Web Quiz 1 due** |  |  |
+| 3 | Apr 14 | Grouping and Aggregation | **Homework 1 due** | [Demo]() |  |
+|  | Apr 16 | Advanced SQL Queries Part 1 | Web Quiz 2: SQL Aggregates  **Homework 2 - release:** Basic SQL Queries |  |  |
+| 4 | Apr 21 | Advanced SQL Queries Part 2 |  |  |  |
+|  | Apr 23 | Set Operation in SQL | Web Quiz 3: Advanced SQL **Homework 3 - release:** Advanced SQL and PostgreSQL |  |  |
+|  | Apr 24 |  | **Web Quiz 2 due** |  |  |
+| 5 | Apr 28 | Formal Relational Query Languages Part 1 | **Homework 2 due** |  |  |
+|  | Apr 30 | Formal Relational Query Languages Part 2 | Web Quiz 4: Relational Algebra  **Homework 4 - release:** Relational Algebra |  | Relational Algebra , |
+|  | May 1 |  |  |  | Exam practice |
+| 6 | May 5 | Interactive Data Analysis Using SQL |  |  |  |
+|  | May 7 | Midterm Exam |  |  |  |
+| 7 | May 12 | Recursive Queries and Conceptual Design |  |  |  |
+|  | May 14 | Data Storage, Indexes and Size Estimation Part 1 |  |  |  |
+| 8 | May 19 | Data Storage, Indexes and Size Estimation Part 2 | Web Quiz 5: Query Evaluation and Indexes | , |  |
+|  | May 21 | Data Storage, Indexes and Size Estimation Part 2 |  |  |  |
+| 9 | May 26 | Design Theory | **Homework 5 - release:** Entity Relationship Diagrams, Conceptual Design |  |  |
+|  | May 28 | Design Theory | Web Quiz 6: Conceptual Design and Design Theory |  |  |
+| 10 | Jun 2 | Design Theory |  |  | Indexes and Cost Estimation  Conseuptual Design practice |
+|  | Jun 4 | Normal Forms and Constraints |  |  |  |
 
-**Lectures**:
+---
 
-Tuesdays and Thursdays at 2:00p-3:20p in SOLIS 104
-	
+## Instructional Team
 
-**Discussion (DIA01):** Mondays at 2:00p-2:50p in SOLIS 104
+**Instructor:** [Babak Salimi](https://bsalimi.github.io/), bsalimi@ucsd.edu
 
-**Note:** The lectures for this course will be automatically recorded and made available for students to watch at their convenience. The recordings are meant to be a supplement to the in-person lectures and should not be used as a replacement for attendance
+**Course Assistants:** TBD
 
+**Office Hours:** TBD — schedule will be posted on Canvas.
 
-**Office Hours:**
+**Note:** Lectures will be automatically recorded and made available for students to watch at their convenience. Recordings are a supplement to in-person lectures and should not be used as a replacement for attendance.
 
+---
 
-TBD - Office hours schedule will be posted on Canvas.
-
-**Piazza:** [link](https://piazza.com/ucsd/spring2026/dsc100) (Requires access code posted on Canvas)
-
-**Have questions? Please email Babak Salimi (bsalimi@ucsd.edu) and at least one of the TAs for questions about logistics. All other questions should be discussed on Piazza.**
-
-
-
-
-
-
-## Course Workload
-**(subject to change)**
-
-**Homework (30%):** There will be weekly homeworks consisting of written problem-solving and programming assignments (25%) and web quizzes (5%). The purpose of the homeworks is to provide students with the opportunity to apply and practice the concepts and skills learned in the lectures. Homeworks will be more rigorous than the web quizzes and will require students to demonstrate a deeper understanding of the material. The purpose of the web quizzes is to help students reinforce their understanding of the course material by answering review questions based on the previous lectures. The following is a list of the homeworks and web quizzes in the course:
-
-- Homework 1: SQLITE and SQL Basics
-- Homework 2: Basic SQL Queries
-- Completion of Postgres Setup for Homework 3
-- Homework 3: Advanced SQL and PostgreSQL
-- Homework 4: Relational Algebra
-- Homework 5: Entity Relationship Diagrams and Conceptual Design
-- Web Quiz 1: Data Models and Basic SQL
-- Web Quiz 2: SQL Aggregates
-- Web Quiz 3: Advanced SQL
-- Web Quiz 4: Relational Algebra
-- Web Quiz 5: Query Evaluation and Indexes
-- Web Quiz 6: Conceptual Design and Design Theory
-- Web Quiz 7: Data Quality
-
-**Due dates:**  Please note that the due dates for both the homework assignments and web quizzes can be found on the Canvas calendar. Additionally, the homework assignment due dates are also available on the course webpage calendar (below). Web quizzes are due on Mondays of the following week in which they are released.
-
-**Note:** Homework assignments can be completed in teams of size 3. This means that you can work with one other student to complete the assignment and submit a single solution. It is expected that each member of the team will contribute equally to the solution and have a thorough understanding of the material. Collaboration is strongly encouraged as it can help deepen understanding and facilitate learning, but it is important that all team members understand the work being submitted and are able to explain it if necessary. Plagiarism and cheating will not be tolerated and will result in disciplinary action.
-
-**Late Day Policy:** You have up to 3 late days to use on homework assignments. These late days can be used in 24-hour chunks. You can only use one late day on each assignment. Late days are meant to be a safety net and should not be used as a convenience. It is expected that you will not need to use your late days and that you will submit all assignments on time. If you use all of your late days, it is likely that you are not managing your time effectively and will need to adjust your study habits. **Please note that no excuses for not submitting assignments on time will be accepted once you have exhausted your late days.**
-
-
-**Midterm (20%):** The midterm exam will cover all topics up until Formal Query Languages. It will be held in person.
-
-**Final Exam (50%):** The final exam will be comprehensive and will be held in person.
-
-**Bonus (3%)**: Awarded for participation in Slido web quizzes.
-
-**Exam Dates:**
-
-Midterm Exam: TBD
-
-Final Exam: Tuesday, June 9, 2026, 3:00p-5:59p in SOLIS 104
-
-**Extra Credit:**
-
-- Some homeworks have extra credit questions.
-- Large number of good answers on Piazza.
-
-
-
-## **Calender:**
-
-**(subject to change)**
-
-
-| Week | Lecture Date | Course Topic | Lecture Description | Assignments | Slides | Discussion | Optional Reading | Lecture Motivation |
-|------|--------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------|------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1    |  Mar 31    | Course organization and Introduction | This lecture will cover the organization and structure of the course, including the syllabus, grading policies, and course materials. We will also introduce the basic concepts of data management and the importance of databases in modern society. | |[Slide-Part 1](https://drive.google.com/file/d/10Ts2iRj7IBpWQkwxa07vRdT7czFcfmQs/view?usp=sharing) [Recording-Part 1](https://drive.google.com/file/d/1l85Hy_nIcxMXem62dKVWz2PxsfPg1IHV/view?usp=sharing) [Slide-Part 2](https://drive.google.com/file/d/104OGPAmhHFlfDM_1MJ9ChH5tDz7xtfEz/view?usp=sharing) [Recording-Part 2](https://drive.google.com/file/d/10CqTVmNFQNwtrdfFIg73DgLcvsDvt20j/view?usp=sharing) [Slide-Part 3](https://drive.google.com/file/d/10X1VrgLcrKPssW1w48ThejDb3ieedCnJ/view?usp=sharing) [Recording-Part 3](https://drive.google.com/file/d/10IpNPfkfWf33XZOAcuYSvbzUqGs6QaoV/view?usp=sharing) [Demo 1](https://drive.google.com/file/d/1-iCciQ_A6DI_gQR1KLFf196axsJpbM3n/view?usp=sharing) [Source](https://drive.google.com/file/d/1-jtOOESAnOPfDDShXydoQQayLQMxI7YN/view?usp=sharing) [Slide-Part 4](https://drive.google.com/file/d/10ZB4yHge97742CVLUa_yWgKxbLCGIch_/view?usp=sharing) [Recording-Part 4](https://drive.google.com/file/d/10DfiDpHk1jESO6f5r3VnTK20iegqLT2t/view?usp=sharing)| | <em> Text Book: </em> Sec. 2.1 <br> <em> Blog posts: </em> [Data Management: What It Is, Importance, And Challenges](https://www.tableau.com/learn/articles/what-is-data-management) | This lecture will provide an overview of the course and help students understand the goals and objectives of the class. |
-|     |   Apr 2    | Relational Data Model | This lecture will introduce the relational data model, including a demonstration of the SQLite database management system and an example relational database. We will also discuss the connection to the DataFrame data model and how it is used in data analysis. | Web Quiz 1: Data Models and Basic SQL **Homework 1 - release:** SQLITE and SQL Basics|  | | | The relational model is a fundamental concept in data management and is the basis for many popular database systems. Understanding the principles of the relational model is essential for data scientists. | 
-|  2    |  Apr 7   | Joins in SQL Part 1 | This lecture will cover the various types of joins in SQL, including inner, outer, and cross joins. The use of join clauses to combine information from multiple tables will also be discussed. |  |   | | | Joins are an important tool for combining data from multiple tables and are used in many complex queries. Understanding how to use joins effectively is essential for working with large datasets. |
-| |  Apr 9     | Joins in SQL Part 2 | This lecture will continue the discussion of joins in SQL, with a focus on practical examples and a demonstration using the SQLite database management system. |  |    | SQL practice  | | |
-| |  Apr 10     |  |  | **Web Quiz 1 due** |   |  | | |
-|  3    | Apr 14   | Grouping and Aggregation | This lecture will introduce the concepts of grouping and aggregation in SQL, and show how to write complex analytical queries using these techniques. We will also provide a demonstration of aggregate functions in SQL. | **Homework 1 due**| [Demo]()  | | | Grouping and aggregation are powerful tools for analyzing and summarizing data, and are frequently used in data analysis and reporting. |
-|     |  Apr 16   | Advanced SQL Queries Part 1 | This lecture will cover complex nested queries and the use of next queries in the WHERE, FROM, and SELECT clauses of an SQL statement. |  Web Quiz 2: SQL Aggregates  **Homework 2 - release:** Basic SQL Queries |   | | | Writing complex queries is an essential skill for working with large and complex datasets, and understanding how to do so is crucial for data scientists. |
-|  4    |  Apr 21     | Advanced SQL Queries Part 2 | This lecture will continue the discussion of advanced SQL queries, covering expression quantifiers in SQL, monotone versus non-monotone queries. | |     |  | | |
-|     |    Apr 23    | Set Operation in SQL | This lecture will cover set operations in SQL and how they can be applied. | Web Quiz 3: Advanced SQL **Homework 3 - release:** Advanced SQL and PostgreSQL |  | | | |
-| |  Apr 24     |  |  | **Web Quiz 2 due** |   |  | | |
-|   5  |   Apr 28   | Formal Relational Query Languages Part 1 | This lecture will introduce the basics of relational algebra, extended relational algebra, and their connection to data frames and SQL.  | **Homework 2 due** |  | | | Understanding Formal Relational languages, such as relational algebra, is crucial for understanding how relational database systems operate. |
-|      |  Apr 30    | Formal Relational Query Languages Part 2 | This lecture continues our discussion on the connection between relational algebra and SQL. |Web Quiz 4: Relational Algebra  **Homework 4 - release:** Relational Algebra | | Relational Algebra , | |  |
-|        |  May 1   | | | | | Exam practice   | | |
-|   6    |  May 5  |  Interactive Data Analysis Using SQL |   |  | |  | | |
-|      |  May 7     | Midterm Exam |  | | | | |  |
-|  7   |   May 12    | Recursive Queries and Conceptual Design | The purpose of the conceptual design phase is to build a conceptual model based upon the previously identified requirements, but closer to the final physical model. A commonly-used conceptual model is called an entity-relationship model. This lecture will introduce the concepts of conceptual design and entity-relationship modeling, and show how to use these tools to design a database. | |   | | | Conceptual design is an important step in the database design process, and understanding the principles of entity-relationship modeling is essential for creating a well-structured database.|
-|     |  May 14     | Data Storage, Indexes and Size Estimation Part 1 | This lecture will cover the basics of data storage, including the structure of hard disks and file systems, as well as the use of indexes to improve the performance of database queries. We will also discuss the differences between clustered and unclustered indexes. | |  | | | Data storage is a critical aspect of database management, and understanding the different options and trade-offs is essential for optimizing the performance of a database system. |
-|   8   |   May 19   | Data Storage, Indexes and Size Estimation Part 2 | This lecture will continue the discussion of data storage and indexes, with a focus on creating indexes in SQL and the use of size estimation techniques to optimize queries. |   Web Quiz 5: Query Evaluation and Indexes | ,  |  | | |
-|      |   May 21   | Data Storage, Indexes and Size Estimation Part 2 | This lecture will continue the discussion of data storage and indexes, with a focus on creating indexes in SQL and the use of size estimation techniques to optimize queries. |  |     |  | | |
-| 9 |  May 26    | Design Theory | This lecture will cover the database design process, including the importance of functional dependencies and normal forms. We will also introduce the implication problem and the closure algorithm, which are used to determine functional dependencies. | **Homework 5 - release:** Entity Relationship Diagrams, Conceptual Design |  | | | Design theory is a fundamental concept in database design, and understanding the principles of normalization and functional dependencies is essential for creating a well-structured database. |
-|      |   May 28  | Design Theory |This lecture will introduce the concept of Boyce-Codd normal form (BCNF) in database design. We will discuss the importance of BCNF in ensuring the integrity and performance of a database, and show how to apply BCNF to a design. |Web Quiz 6: Conceptual Design and Design Theory | |  | | Normalization is a technique used in database design to minimize redundancy and eliminate anomalies. It is an essential skill for designing effective and efficient databases.|
-|  10  |  Jun 2    |Design Theory  | This lecture will introduce the concept of Boyce-Codd normal form (BCNF) in database design. We will discuss the importance of BCNF in ensuring the integrity and performance of a database, and show how to apply BCNF to a design.  | |    | Indexes and Cost Estimation  Conseuptual Design practice | | Normalization is a technique used in database design to minimize redundancy and eliminate anomalies. It is an essential skill for designing effective and efficient databases. |
-|      |   Jun 4   |  Normal Forms and Constraints  | |  |  |  |  |
-
-## Grading Scheme
+## Grading
 
 The grading scheme is a hybrid of absolute and relative grading. The absolute cutoffs are based on your absolute total score. The relative bins are based on your position in the total score distribution of the class. The better grade among the two (absolute-based and relative-based) will be your final grade.
 
@@ -142,43 +95,92 @@ The grading scheme is a hybrid of absolute and relative grading. The absolute cu
 | F     | < 50                 | Lowest 5%                     |
 
 
-## Textbook
 
-Although a textbook is not required in the course, the following textbook is optional and recommended. Lecture slides and recorded videos would be sufficient for this class.
+| Grade | Absolute Cutoff (>=) | Relative Bin (Use strictest) |
+|-------|----------------------|-------------------------------|
+| A+    | 97                   | Highest 5%                    |
+| A     | 94                   | Next 10% (5-15)               |
+| A-    | 91                   | Next 15% (15-30)              |
+| B+    | 85                   | Next 15% (30-45)              |
+| B     | 80                   | Next 15% (45-60)              |
+| B-    | 70                   | Next 15% (60-75)              |
+| C+    | 65                   | Next 5% (75-80)               |
+| C     | 60                   | Next 5% (80-85)               |
+| C-    | 55                   | Next 5% (85-90)               |
+| D     | 50                   | Next 5% (90-95)               |
+| F     | < 50                 | Lowest 5%                     |
 
-Database Systems: The Complete Book, by Hector Garcia-Molina, Jeffrey D. Ullman, and Jennifer Widom. 2nd Edition. Prentice Hall. 2008.
+**Exam Dates:**
 
-## Canvas
+- Midterm Exam: TBD
+- Final Exam: Tuesday, June 9, 2026, 3:00p–5:59p in SOLIS 104
 
-All weekly homework assignments and web quizzes should be turned in via Canvas.
+---
 
-## Communication
+## Course Workload
 
-All important announcements will be sent through Canvas.
+*(subject to change)*
 
-## Piazza
+**Homework (30%):** Weekly homeworks consisting of written problem-solving and programming assignments (25%) and web quizzes (5%).
 
-All questions that may be of general interest to the class should be directed to Piazza. You will get your questions answered faster on Piazza than via personal emails to the instructional team, because Piazza is monitored closely by everybody in the class, not just the course staff. You are highly encouraged to answer each other's questions on Piazza (you will get extra credit for the number of good answers on Piazza!) and the 
-instructional team would endorse/add to those answers.
+**Assignments:**
 
+- Homework 1: SQLITE and SQL Basics
+- Homework 2: Basic SQL Queries
+- Completion of Postgres Setup for Homework 3
+- Homework 3: Advanced SQL and PostgreSQL
+- Homework 4: Relational Algebra
+- Homework 5: Entity Relationship Diagrams and Conceptual Design
 
+**Web Quizzes:**
 
-*Note:*  Some slides are adopted from the UW database group. 
+- Web Quiz 1: Data Models and Basic SQL
+- Web Quiz 2: SQL Aggregates
+- Web Quiz 3: Advanced SQL
+- Web Quiz 4: Relational Algebra
+- Web Quiz 5: Query Evaluation and Indexes
+- Web Quiz 6: Conceptual Design and Design Theory
+- Web Quiz 7: Data Quality
 
+**Due dates:** Homework due dates are on the Canvas calendar and the schedule above. Web quizzes are due on Mondays of the following week.
 
-## Related Groups:
+**Midterm (20%):** Covers all topics up until Formal Query Languages. Held in person.
+
+**Final Exam (50%):** Comprehensive. Held in person.
+
+**Bonus (3%):** Awarded for participation in Slido web quizzes.
+
+**Extra Credit:** Some homeworks have extra credit questions. Good Piazza answers earn extra credit.
+
+---
+
+## Policies
+
+**Teams:** Homework assignments can be completed in teams of up to 3 students. Each member must contribute equally and understand the submitted work. Plagiarism and cheating will result in disciplinary action.
+
+**Late Days:** You have 3 late days (24-hour chunks), with a maximum of 1 late day per assignment. No extensions after late days are exhausted.
+
+---
+
+## Resources
+
+**Textbook (optional):** Database Systems: The Complete Book, by Garcia-Molina, Ullman, and Widom. 2nd Edition. Prentice Hall, 2008. Lecture slides and recorded videos are sufficient for this class.
+
+**Canvas:** All homework and web quizzes are submitted via Canvas.
+
+**Piazza:** All course-related questions should be directed to Piazza. You are encouraged to answer each other's questions (extra credit for good answers).
+
+**Have questions?** Email Babak Salimi (bsalimi@ucsd.edu) and at least one TA for logistics. All other questions should be discussed on Piazza.
+
+*Note: Some slides are adopted from the UW database group.*
+
+---
+
+## Related Groups
 
 - [UCSD Database Group](https://dbucsd.github.io/)
-
-- [SIGMOD (Special Interest Group on Management of Data)](https://www.google.com/url?q=https%3A%2F%2Fsigmod.org%2F&sa=D&sntz=1&usg=AFQjCNEv9sM8CpuOZ7oxWFX_20353W6NZw)
-
-- [VLDB (Very Large Data Base Endowment Inc.)](https://www.google.com/url?q=https%3A%2F%2Fwww.vldb.org%2F&sa=D&sntz=1&usg=AFQjCNEN7a3TJIOhpq3OC7bw9DKWHhki-w)
-
-- [PODS (Symposium on Principles of Database Systems)](https://www.google.com/url?q=https%3A%2F%2Fsigmod.org%2Fpods%2F&sa=D&sntz=1&usg=AFQjCNEy52V8Padws9vrgz2GoFYinNgG9Q)
-
-- [ICDT(IEEE International Conference on Data Engineering)](http://ieee-icde.org/)
-
-- [CIDR (Conference on Innovative Data Systems Research)](http://www.google.com/url?q=http%3A%2F%2Fcidrdb.org%2F&sa=D&sntz=1&usg=AFQjCNHZ5MTU545Lei9xcYfQR9fHHLan5w)
-
-
-
+- [SIGMOD (Special Interest Group on Management of Data)](https://sigmod.org/)
+- [VLDB (Very Large Data Base Endowment Inc.)](https://www.vldb.org/)
+- [PODS (Symposium on Principles of Database Systems)](https://sigmod.org/pods/)
+- [ICDT (IEEE International Conference on Data Engineering)](https://www.ieee.org/)
+- [CIDR (Conference on Innovative Data Systems Research)](http://cidrdb.org/)
