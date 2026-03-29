@@ -173,8 +173,24 @@
       text-align: center;
       font-size: 1rem;
     }
-    .due { font-weight: 600; color: #dc3545; }
-    .release { color: #6c757d; font-size: 0.82rem; }
+    .due {
+      font-weight: 600;
+      color: #dc3545;
+      background: #fef0f0;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      border-left: 3px solid #dc3545;
+    }
+    .release {
+      display: inline-block;
+      font-size: 0.82rem;
+      color: #0d6832;
+      background: #e8f5e9;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      border-left: 3px solid #2e7d32;
+      margin-top: 0.3rem;
+    }
     .midterm-row { background: #fff8e1 !important; }
     .midterm-row td { font-weight: 600; }
 
@@ -347,7 +363,7 @@
         <p>This course provides a comprehensive introduction to data management, covering the relational data model, SQL, formal query languages, query evaluation, data storage and indexes, conceptual design, integrity constraints, design theory, normal forms, and data quality.</p>
         <p>Through lectures, demos, and hands-on exercises, students will gain a strong foundation in database management with a focus on SQL and the relational model.</p>
         <div class="callout callout-info mt-3">
-          <strong><i class="bi bi-camera-video me-1"></i> Demos:</strong> Demo sessions will be conducted on Zoom remotely for convenience. Sessions will be announced through Canvas and Piazza depending on progress.
+          <strong><i class="bi bi-camera-video me-1"></i> Demos:</strong> Demo sessions will be held online via Zoom for convenience, as they are easier to follow on your own screen and allow for flexible scheduling. The specific demo sessions will depend on course progress and will be announced weekly through Canvas and Piazza.
         </div>
       </div>
 
@@ -477,14 +493,7 @@
           </tr>
           <!-- Week 6 -->
           <tr>
-            <td class="week-num" rowspan="3">6</td>
-            <td>May 1</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>Exam practice</td>
-          </tr>
-          <tr>
+            <td class="week-num" rowspan="2">6</td>
             <td>May 5</td>
             <td>Interactive Data Analysis Using SQL</td>
             <td></td>
