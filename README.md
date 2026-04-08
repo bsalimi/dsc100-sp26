@@ -6,9 +6,11 @@
 
 > **Lectures:** TuTh 2:00–3:20p &ensp;|&ensp; **Room:** SOLIS 104 &ensp;|&ensp; **Discussion:** Mon 2:00–2:50p, SOLIS 104
 >
-> **Instructor:** [Babak Salimi](https://bsalimi.github.io/) (bsalimi@ucsd.edu) &ensp;|&ensp; **TAs:** TBD
+> **Instructor:** [Babak Salimi](https://bsalimi.github.io/) (bsalimi@ucsd.edu) &ensp;|&ensp; **TAs:** Haoquan Guan (h3guan@ucsd.edu), Emily Chen (emc001@ucsd.edu)
 >
 > **Links:** [Canvas](https://canvas.ucsd.edu) &ensp;|&ensp; [Piazza](https://piazza.com/ucsd/spring2026/dsc100) (access code on Canvas) &ensp;|&ensp; **Final:** Tue Jun 9, 3:00–5:59p
+>
+> **Office Hours**: Emily Chen: 12:00PM-1:00PM Week 2, 4, 6, 8, 10; Haoquan Guan: 12:00PM-1:00PM Week 3, 5, 7, 9, 11
 
 ---
 
@@ -41,7 +43,7 @@ This course provides a comprehensive introduction to data management, covering t
 | 1 | Mar 31 | Course organization and Introduction |  | [Slide-Part 1](https://drive.google.com/file/d/10Ts2iRj7IBpWQkwxa07vRdT7czFcfmQs/view?usp=sharing) [Recording-Part 1](https://drive.google.com/file/d/1l85Hy_nIcxMXem62dKVWz2PxsfPg1IHV/view?usp=sharing) [Slide-Part 2](https://drive.google.com/file/d/104OGPAmhHFlfDM_1MJ9ChH5tDz7xtfEz/view?usp=sharing) [Recording-Part 2](https://drive.google.com/file/d/10CqTVmNFQNwtrdfFIg73DgLcvsDvt20j/view?usp=sharing) [Slide-Part 3](https://drive.google.com/file/d/10X1VrgLcrKPssW1w48ThejDb3ieedCnJ/view?usp=sharing) [Recording-Part 3](https://drive.google.com/file/d/10IpNPfkfWf33XZOAcuYSvbzUqGs6QaoV/view?usp=sharing) [Demo 1](https://drive.google.com/file/d/1-iCciQ_A6DI_gQR1KLFf196axsJpbM3n/view?usp=sharing) [Source](https://drive.google.com/file/d/1-jtOOESAnOPfDDShXydoQQayLQMxI7YN/view?usp=sharing) [Slide-Part 4](https://drive.google.com/file/d/10ZB4yHge97742CVLUa_yWgKxbLCGIch_/view?usp=sharing) [Recording-Part 4](https://drive.google.com/file/d/10DfiDpHk1jESO6f5r3VnTK20iegqLT2t/view?usp=sharing) |  |
 |  | Apr 2 | Relational Data Model | Web Quiz 1: Data Models and Basic SQL **Homework 1 - release:** SQLITE and SQL Basics |  |  |
 | 2 | Apr 7 | Joins in SQL Part 1 |  |  |  |
-|  | Apr 9 | Joins in SQL Part 2 |  |  | SQL practice |
+|  | Apr 9 | Joins in SQL Part 2 |  |  | SQL practice [Recording](https://drive.google.com/file/d/11OtPfxmWCrn4K__lL1dDZtoUPe6Jvu2k/view?usp=drive_link) |
 |  | Apr 10 |  | **Web Quiz 1 due** |  |  |
 | 3 | Apr 14 | Grouping and Aggregation | **Homework 1 due** | [Demo]() |  |
 |  | Apr 16 | Advanced SQL Queries Part 1 | Web Quiz 2: SQL Aggregates  **Homework 2 - release:** Basic SQL Queries |  |  |
