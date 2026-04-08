@@ -10,7 +10,7 @@
 >
 > **Links:** [Canvas](https://canvas.ucsd.edu) &ensp;|&ensp; [Piazza](https://piazza.com/ucsd/spring2026/dsc100) (access code on Canvas) &ensp;|&ensp; **Final:** Tue Jun 9, 3:00–5:59p
 >
-> **Office Hours**: Emily Chen: 12:00PM-1:00PM Week 2, 4, 6, 8, 10; Haoquan Guan: 12:00PM-1:00PM Week 3, 5, 7, 9, 11
+> **Office Hours**: Emily Chen: 12:00PM-1:00PM Wednesday Week 2, 4, 6, 8, 10; Haoquan Guan: 12:00PM-1:00PM Wednesday Week 3, 5, 7, 9, 11
 
 ---
 
