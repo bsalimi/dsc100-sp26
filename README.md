@@ -52,7 +52,7 @@ This course provides a comprehensive introduction to data management, covering t
 |  | Apr 24 |  | **Web Quiz 2 due** |  |  |
 | 5 | Apr 28 | Formal Relational Query Languages Part 1 | **Homework 2 due** |  |  |
 |  | Apr 30 | Formal Relational Query Languages Part 2 | Web Quiz 4: Relational Algebra  **Homework 4 - release:** Relational Algebra |  | Relational Algebra , |
-|  | May 1 |  |  |  | Exam practice |
+|  | May 1 |  | **Web Quiz 3 due** |  | Exam practice |
 | 6 | May 5 | Interactive Data Analysis Using SQL |  |  |  |
 |  | May 7 | Midterm Exam |  |  |  |
 | 7 | May 12 | Recursive Queries and Conceptual Design |  |  |  |
